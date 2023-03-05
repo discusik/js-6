@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Пример 60</title>
+</head>
+<body>
+    <script>
+let n = prompt('Введите число');
+    function fib(n) {
+    let num;
+
+    if (n >= 2) {
+        num = fib(n - 1) + fib(n - 2);
+    } else {
+        num = n
+    }
+
+    return num;
+}
+document.writeln(`Число фибоначи = ${fib(n)}`);
+    </script>
+</body>
+</html>

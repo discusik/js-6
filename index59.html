@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Пример 59</title>
+</head>
+<body>
+    <script>
+        let i =  [5, 7, 8, 5, 9];
+        a = i.filter(function(item, pos, self) {
+    return self.indexOf(item) === pos;
+});
+        alert(a);
+    </script>
+</body>
+</html>
